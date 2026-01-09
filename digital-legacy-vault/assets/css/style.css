@@ -1,0 +1,52 @@
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:'Segoe UI';
+background:linear-gradient(135deg,#020617,#020024,#0f172a);
+color:white;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.hero{text-align:center}
+.hero h1{font-size:3rem}
+.hero p{opacity:.8}
+.btn{
+padding:12px 30px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:30px;
+display:inline-block;
+margin-top:20px;
+}
+
+.glass{
+background:rgba(255,255,255,.1);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(15px);
+width:320px;
+text-align:center;
+}
+
+input,textarea,button{
+width:100%;
+padding:10px;
+margin:8px 0;
+border-radius:10px;
+border:none;
+}
+
+button{
+background:#2563eb;
+color:white;
+cursor:pointer;
+}
+
+.dashboard{
+width:400px;
+}
+.logout{color:#93c5fd}
